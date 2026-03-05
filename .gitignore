@@ -1,0 +1,62 @@
+# Visual Studio build outputs
+bin/
+obj/
+
+# Visual Studio user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny[Cc]PU/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vscode/
+*.vsidx
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Mac system files
+.DS_Store
