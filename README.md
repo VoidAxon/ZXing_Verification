@@ -46,7 +46,7 @@ ZXing_Verification/
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/pasysxa/ZXing_Verification.git
+git clone https://github.com/VoidAxon/ZXing_Verification.git
 cd ZXing_Verification
 ```
 
@@ -90,10 +90,10 @@ ZXing.Net は 64bit プロジェクトへの移行において安全に使用可
 
 ```bash
 # Debug ビルド (x64)
-msbuild ZXing_Verification.sln /p:Configuration=Debug /p:Platform="Any CPU"
+msbuild ZXing_Verification.sln /p:Configuration=Debug /p:Platform="x64"
 
-# Release ビルド
-msbuild ZXing_Verification.sln /p:Configuration=Release /p:Platform="Any CPU"
+# Release ビルド (x64)
+msbuild ZXing_Verification.sln /p:Configuration=Release /p:Platform="x64"
 ```
 
 ### Visual Studio 使用
